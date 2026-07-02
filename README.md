@@ -1,5 +1,10 @@
 # 🕊️ PeaceNet — Rede Social pela Paz Mundial
 
+## 🌐 Deploy
+
+- **Frontend:** https://peacenet.vercel.app
+- **Backend:** http://localhost:3000 (local)
+
 Plataforma fullstack que conecta governos, ONGs, ativistas e cidadãos em torno de um único objetivo: **paz mundial e fim dos conflitos armados**.
 
 > Ideia original concebida em janeiro de 2020, antes da pandemia. Agora realidade! 🕊️
