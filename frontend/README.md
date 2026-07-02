@@ -1,48 +1,64 @@
-# frontend
+# 🕊️ PeaceNet Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Interface da rede social pela paz mundial — desenvolvida com Vue.js 3 + TypeScript + Tailwind CSS.
 
-## Recommended IDE Setup
+## 🚀 Tecnologias
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue.js 3 + TypeScript
+- Tailwind CSS
+- Axios (consumo da API)
+- Vue Router (navegação)
+- Pinia (gerenciamento de estado)
+- Vite (build tool)
 
-## Recommended Browser Setup
+## 📁 Estrutura
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+src/
+├── config/       # Configuração do Axios
+├── views/        # Páginas da aplicação
+│   ├── LoginView.vue
+│   ├── RegisterView.vue
+│   ├── FeedView.vue
+│   └── ProfileView.vue
+├── router/       # Rotas da aplicação
+├── stores/       # Estado global (Pinia)
+├── assets/       # Estilos globais
+├── App.vue
+└── main.ts
 
-## Type Support for `.vue` Imports in TS
+## 🖥️ Telas
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **Login** — autenticação com email e senha
+- **Cadastro** — registro com nome, username, país e tipo de perfil
+- **Feed** — publicações com módulos Paz, Solidariedade e Relações Humanas
+- **Perfil** — dados do usuário e suas publicações
 
-## Customize configuration
+## ⚙️ Como rodar
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+# Instale as dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Rode o servidor de desenvolvimento
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Acesse: `http://localhost:5173`
 
-```sh
-npm run build
-```
+> ⚠️ O backend deve estar rodando em `http://localhost:3000`
 
-### Lint with [ESLint](https://eslint.org/)
+## 🌍 Módulos da PeaceNet
 
-```sh
-npm run lint
-```
+- 🕊️ **PAZ** — conflitos, disputas, acordos, governos, ONU
+- 🤝 **SOLIDARIEDADE** — vaquinhas, doações, campanhas humanitárias
+- 🌍 **RELAÇÕES HUMANAS** — raças, gêneros, culturas, conexões
+
+## 🏆 Hackathon
+
+Projeto desenvolvido para o **Hackathon Fullstack — Trilha PU12**
+TIC-Hub | Programa Residência em TIC 12 | UECE + IFCE + Softex + MCTI
+
+---
+
+Desenvolvido por **Ednardo Peixoto** 🕊️  
+[LinkedIn](https://www.linkedin.com/in/engcivilednardoppeixoto)
