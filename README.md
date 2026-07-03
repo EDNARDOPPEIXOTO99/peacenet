@@ -33,8 +33,27 @@ PeaceNet é uma rede social com tripé fundamental:
 ## 📁 Estrutura
 
 peacenet/
-├── backend/    # API REST Node.js + TypeScript
-└── frontend/   # Interface Vue.js 3 + Tailwind
+├── backend/          # API REST Node.js + TypeScript
+│   ├── src/
+│   │   ├── config/       # Banco de dados e migrations
+│   │   ├── entities/     # Interfaces TypeScript
+│   │   ├── repositories/ # Acesso ao banco de dados
+│   │   ├── services/     # Regras de negócio
+│   │   ├── controllers/  # Handlers das requisições
+│   │   ├── middlewares/  # Autenticação JWT
+│   │   └── routes/       # Definição das rotas
+│   ├── .env.example
+│   ├── package.json
+│   └── tsconfig.json
+└── frontend/         # Interface Vue.js 3 + Tailwind CSS
+├── src/
+│   ├── config/       # Configuração do Axios
+│   ├── views/        # Telas da aplicação
+│   ├── router/       # Rotas do Vue Router
+│   ├── stores/       # Estado global (Pinia)
+│   └── assets/       # Estilos globais
+├── package.json
+└── vite.config.ts
 
 ## ⚙️ Como rodar
 
@@ -83,8 +102,7 @@ TIC-Hub | Programa Residência em TIC 12 | UECE + IFCE + Softex + MCTI
 
 ## 🎥 Pitch
 
-🔗 *(link do vídeo será adicionado após gravação)*
-
+🔗 [Assistir ao Pitch no YouTube](https://youtu.be/jCocnzJMyKM)   
 ---
 
 Desenvolvido por **Ednardo Peixoto** 🕊️  

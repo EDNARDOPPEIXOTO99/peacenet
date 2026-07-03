@@ -28,7 +28,7 @@ src/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/EDNARDOPPEIXOTO99/peacenet-backend.git
+git clone https://github.com/EDNARDOPPEIXOTO99/peacenet.git
 
 # Instale as dependências
 npm install
