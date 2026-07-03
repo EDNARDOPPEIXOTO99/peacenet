@@ -30,30 +30,32 @@ PeaceNet é uma rede social com tripé fundamental:
 - Axios
 - Vue Router + Pinia
 
-## 📁 Estrutura
+## 📁 Estrutura do Repositório
 
+```text
 peacenet/
-├── backend/          # API REST Node.js + TypeScript
+├── backend/                # API REST Node.js + TypeScript
 │   ├── src/
-│   │   ├── config/       # Banco de dados e migrations
-│   │   ├── entities/     # Interfaces TypeScript
-│   │   ├── repositories/ # Acesso ao banco de dados
-│   │   ├── services/     # Regras de negócio
-│   │   ├── controllers/  # Handlers das requisições
-│   │   ├── middlewares/  # Autenticação JWT
-│   │   └── routes/       # Definição das rotas
+│   │   ├── config/         # Banco de dados e migrations
+│   │   ├── entities/       # Interfaces TypeScript
+│   │   ├── repositories/   # Acesso ao banco de dados
+│   │   ├── services/       # Regras de negócio
+│   │   ├── controllers/    # Handlers das requisições
+│   │   ├── middlewares/    # Autenticação JWT
+│   │   └── routes/         # Definição das rotas
 │   ├── .env.example
 │   ├── package.json
 │   └── tsconfig.json
-└── frontend/         # Interface Vue.js 3 + Tailwind CSS
-├── src/
-│   ├── config/       # Configuração do Axios
-│   ├── views/        # Telas da aplicação
-│   ├── router/       # Rotas do Vue Router
-│   ├── stores/       # Estado global (Pinia)
-│   └── assets/       # Estilos globais
-├── package.json
-└── vite.config.ts
+└── frontend/               # Interface Vue.js 3 + Tailwind CSS
+    ├── src/
+    │   ├── config/         # Configuração do Axios
+    │   ├── views/          # Telas da aplicação
+    │   ├── router/         # Rotas do Vue Router
+    │   ├── stores/         # Estado global (Pinia)
+    │   └── assets/         # Estilos globais
+    ├── package.json
+    └── vite.config.ts
+```
 
 ## ⚙️ Como rodar
 
@@ -102,7 +104,7 @@ TIC-Hub | Programa Residência em TIC 12 | UECE + IFCE + Softex + MCTI
 
 ## 🎥 Pitch
 
-🔗 [Assistir ao Pitch no YouTube](https://youtu.be/jCocnzJMyKM)   
+🔗 [Assistir ao Pitch no YouTube](https://youtu.be/jCocnzJMyKM)   ou    https://youtu.be/jCocnzJMyKM?si=C_Wyjdz7ShsGFSiK
 ---
 
 Desenvolvido por **Ednardo Peixoto** 🕊️  
